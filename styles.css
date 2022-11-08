@@ -1,0 +1,138 @@
+body{
+  text-align: center;
+}
+/* the text-align : center ; is from all the code and make at a single position to make the code more efficient and more readable..... */
+/* overflow hidden is used to make the part of the image to disappear that is outside of the the section and veryuseful to memorize; */
+/* Can also do the work of overflow hidden by the use of the z-index ,but there are some constraints */
+
+#title{
+  background-color: #ff4c68;
+  overflow: hidden;
+  text-align: left;
+}
+.col-lg-6-col-md-12-col-sm-12:nth-child(1){
+  width: 600px;
+}
+.col-lg-6-col-md-12-col-sm-12:nth-child(2){
+  width: 400px;
+  margin-right: 0;
+  padding: 0;
+
+}
+.btn{
+  margin: 5% 3% 5% 0;
+    size: 1300px;
+}
+.title-image{
+transform: rotate(25deg);
+width: 60%;
+position: relative;
+top: 200px;
+left: 250px;
+vertical-align: middle;
+}
+/* yaha size ko adjust karke idea lagega direct weird response */
+#features{
+background-color: Black;
+color: white;
+padding: 7% 15%;
+}
+@media screen and (max-width: 1400px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+  #features{
+    text-align: center;
+  }
+/* We remove the text align center from all the code but in the media it should not be removed,because it is from particular size of the screen. */
+}
+h1{
+  font-size: 80px;
+}
+h2{
+  font-family: "Montserrat-Bold"
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+/* color: is for changing the color of the font of the font awesome............... */
+.fa-solid{
+  /* text-align: centre; */
+  position: relative;
+  left: 7px;
+  color: #ff4c68;
+  font-size: 80px;
+  /* background-color: #ff4c68; */
+}
+/* This is required to make the pseudoclass (hover) */
+.fa-solid:hover{
+  color: red;
+}
+/* Testimonials : id */
+/* The text-align: center is useful for the making the image to centre and also making the text appear like it is appearing now */
+#testimonials{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  color: #fff;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-inner{
+  width: 100%;
+  overflow: hidden;
+}
+#press{
+  background-color: #ff4c68;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  background-color: black;
+  color: white;
+  padding: 7% 15%;
+
+}
+.card{
+  background-color: black;
+}
+.card-deck{
+  padding: 3%;
+}
+.btn-btn-outline-light{
+width: 80px;
+}
+#cta{
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+.ctah3{
+  font-size: 80px;
+  color: white;
+}
+#footer{
+  background-color: Black;
+}
+.footerp{
+  font-size: 20px;
+  color: white;
+  padding: 0;
+  margin-bottom: 0;
+}
+.footerh1{
+font-size: 20px;
+color: white;
+margin-top: 0;
+}
+                        /* --------------------The end of the code------------------------  */
